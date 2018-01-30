@@ -1,0 +1,17 @@
+{
+    "name": "mvc/oop",
+    "description": "MVC",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "julio cesar",
+            "email": "vcjuliocesar@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+      "psr-4":{
+        "App\\": "src/"
+      }
+    }
+}
