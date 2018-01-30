@@ -10,7 +10,7 @@ class Connection extends PDO
     public function __construct()
     {
         try {
-            parent::__construct("mysql:host=localhost;dbname=sakila", "root", "sesamo");
+            parent::__construct("mysql:host=localhost;dbname=sakila", "root", "");
         } catch (PDOException $e) {
             echo 'Ha surgido un error y no se puede conectar a la base de datos. Detalle: ' . $e->getMessage();
             exit();
