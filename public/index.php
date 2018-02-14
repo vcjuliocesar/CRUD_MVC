@@ -11,9 +11,9 @@ use App\core\Route;
 
 require_once '../helpers/helpers.php';
 require '../vendor/autoload.php';
-
-require_once "../views/header.php";
+require_once '../views/template/Template.php';
+//require_once "../views/header.php";
 
 Route::run(new Request());
 
-require_once "../views/footer.php";
+//require_once "../views/footer.php";
