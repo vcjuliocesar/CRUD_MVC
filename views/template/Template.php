@@ -9,10 +9,10 @@ class Template{
 <head>
     <title>Sistema Web</title>
     <meta charset="utf-8" />
-    <link href="<?php echo BASE_URL;?>templete/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="<?php echo BASE_URL;?>templete/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="<?php echo BASE_URL;?>templete/assets/styles.css" rel="stylesheet" media="screen">
-    <link href="<?php echo BASE_URL;?>templete/assets/DT_bootstrap.css" rel="stylesheet" media="screen">
+    <link href="<?php echo BASE_URL;?>template/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="<?php echo BASE_URL;?>template/bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
+    <link href="<?php echo BASE_URL;?>template/assets/styles.css" rel="stylesheet" media="screen">
+    <link href="<?php echo BASE_URL;?>template/assets/DT_bootstrap.css" rel="stylesheet" media="screen">
           <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="vendors/flot/excanvas.min.js"></script><![endif]-->
           <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
           <!--[if lt IE 9]>
@@ -38,19 +38,20 @@ class Template{
 </head>
 <body>
   <div class="container box">
+
 <?php
 		}
 		public function __destruct(){
 ?>
 <footer>
-<script src="<?php echo BASE_URL;?>templete/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
-<script src="<?php echo BASE_URL;?>templete/vendors/jquery-1.9.1.js"></script>
-<script src="<?php echo BASE_URL;?>templete/bootstrap/js/bootstrap.min.js"></script>
-<script src="<?php echo BASE_URL;?>templete/vendors/datatables/js/jquery.dataTables.min.js"></script>
+<script src="<?php echo BASE_URL;?>template/vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<script src="<?php echo BASE_URL;?>template/vendors/jquery-1.9.1.js"></script>
+<script src="<?php echo BASE_URL;?>template/bootstrap/js/bootstrap.min.js"></script>
+<script src="<?php echo BASE_URL;?>template/vendors/datatables/js/jquery.dataTables.min.js"></script>
 
 
-    <script src="<?php echo BASE_URL;?>templete/assets/scripts.js"></script>
-    <script src="<?php echo BASE_URL;?>templete/assets/DT_bootstrap.js"></script>
+    <script src="<?php echo BASE_URL;?>template/assets/scripts.js"></script>
+    <script src="<?php echo BASE_URL;?>template/assets/DT_bootstrap.js"></script>
     <script>
     $(document).ready(function() {
       $("#frm-Actor").submit(function(event) {
@@ -72,6 +73,7 @@ class Template{
 </div>
 </body>
 </html>
+
 <?php
 		}
 	}
